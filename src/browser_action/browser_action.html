@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body { 
+                min-width: 300px; 
+                font-family: Arial, sans-serif; 
+                font-size: 12px; 
+            }
+            input, textarea { 
+                width: 300px; 
+            }
+            input#save { 
+                font-weight: bold; width: auto; 
+            }
+            dt {
+                font-weight: bold;
+                margin-top: .5em;
+            }
+            dd { margin-top: .1em; }
+        </style>
+        
+    </head>
+    <body>
+        <img src="Banner.png" align="middle">
+        <form id="addbookmark">
+            <p><b><label for="First">First Name</label><br />
+            <input type="text" id="First" name="First" size="30" value="" /></b></p>
+            <p><b><label for="Last">Last Name (optional)</label><br />
+            <input type="text" id="Last" name="Last" size="30" value="" /></b></p>
+            <p><b><label for="Extension">Extension (optional)</label><br />
+            <input type="text" id="Extension" name="Extension" size="30" value="" /></b></p>
+            <p align="right">
+            <button id="click-this"type="button" >Search</button>
+            </p>
+        </form>
+        <dl>
+        </dl>
+        
+    </body>
+    <script language="JavaScript" type="text/javascript" src="/js/jquery/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/jquery/jquery-migrate.min.js"></script>
+    <script src="/js/req.js"></script>
+</html>
