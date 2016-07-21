@@ -14,7 +14,7 @@ function handler() {
 // and remember the jqxhr object for this request
     console
    if (lastName || firstName || extension != "") {
-        var jqxhr = $.get( "https://lkftcmp01.ad.spectrumhhi.com:8443/ccmcip/xmldirectorylist.jsp", {l:lastName,f:firstName,n:extension}, function(data) {
+        var jqxhr = $.get( "http://lkftcmp01.ad.spectrumhhi.com/ccmcip/xmldirectorylist.jsp", {l:lastName,f:firstName,n:extension}, function(data) {
         })
         .done(function(data){
 

@@ -1,9 +1,9 @@
 {
   "name": "HHI Directory",
-  "version": "1.1.1",
+  "version": "3.0.0",
   "manifest_version": 2,
   "description": "Spectrum Brands phone directory search tool",
-  "homepage_url": "https://lkftcmp01.ad.spectrumhhi.com:8443/ccmcip/xmldirectorylist.jsp",
+  "homepage_url": "http://lkftcmp01.ad.spectrumhhi.com/ccmcip/xmldirectorylist.jsp",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -22,6 +22,7 @@
     "default_popup": "src/browser_action/browser_action.html"
   },
   "permissions": [
-     "https://*.spectrumhhi.com/*"
+     "https://*.spectrumhhi.com/*",
+     "http://*.spectrumhhi.com/*"
   ]
 }
